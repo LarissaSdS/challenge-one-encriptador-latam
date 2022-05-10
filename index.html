@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title> Codificador</title>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Codificador</title>
+</head>
+<body>
+	<header>
+		<img class="logoalura" src="imagens/Vector.jpg" alt="Logo da Alura">
+		<h1>Decodificador de Texto</h1>	
+	</header>
+
+	<main>
+
+		<section class="entrada">
+
+			<textarea class="input-texto" cols="20" rows="30" placeholder="Digite o seu texto..."></textarea>
+
+			<div>
+				<h2 class="informacao">	
+				&#10071 Apenas letras maiúscula e minúsculas</h2>
+			</div>
+
+			<div class="botoes">
+
+				<button onclick="btnEncriptar()" class="encriptar">
+				Criptografar</button>
+
+				<button onclick="btnDesencriptar()" class="desencriptar">
+				Descriptografar</button>
+
+			</div>
+
+		</section>
+
+		<section class="saida">
+
+			<textarea class="mensagem" cols="20" rows="30"></textarea>
+    		<button class="botaocopiar" id="copy">Copiar</button>
+
+		</section>
+
+	</main>
+
+	<footer>
+
+		<h3 class="sobremim">Criado por Larissa Santos</h3>
+
+		<nav class= "redessociais">
+
+		<a href="https://www.linkedin.com/in/larissa-santos-santos-79190714b/" target="_blank" rel="noopener noreferrer">
+			<img src="imagens/linkedin.png"></img>
+		</a>
+		<a href="https://github.com/LarissaSdS" target="_blank" rel="noopener noreferrer">
+			<img src="imagens/github.png"></img>
+		</a>
+	</nav>
+
+	</footer>
+
+	<script src="codificador.js">
+	</script>
+
+</body>
